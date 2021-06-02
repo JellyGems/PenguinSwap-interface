@@ -85,7 +85,7 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = 'https://github.com/Kishu-Inu/kishuswap-interface'
+const CODE_LINK = 'https://github.com/JellyGems/PenguinSwap-interface'
 
 export default function Menu() {
   // const { account } = useActiveWeb3React()
@@ -105,7 +105,7 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://kishu.finance/">
+          <MenuItem id="link" href="https://Pemguinswapp.com/">
             <Info size={14} />
             About
           </MenuItem>
@@ -113,7 +113,7 @@ export default function Menu() {
             <Code size={14} />
             Code
           </MenuItem>
-          <MenuItem id="link" href="https://t.me/kishuinucommunity">
+          <MenuItem id="link" href="https://t.me/penguinswapfinamce">
             <MessageCircle size={14} />
             Telegram
           </MenuItem>
