@@ -126,7 +126,7 @@ const AccountElement = styled.div<{ active: boolean }>`
   }
 `
 
-const KISHUAmount = styled(AccountElement)`
+const PNGNAmount = styled(AccountElement)`
   color: white;
   padding: 4px 8px;
   height: 36px;
@@ -135,7 +135,7 @@ const KISHUAmount = styled(AccountElement)`
   background: radial-gradient(174.47% 188.91% at 1.84% 0%, #fddb43 0%, #021d43 100%), #edeef2;
 `
 
-const KISHUWrapper = styled.span`
+const PNGNWrapper = styled.span`
   width: fit-content;
   position: relative;
   cursor: pointer;
@@ -353,8 +353,8 @@ export default function Header() {
             )}
           </HideSmall>
           {!availableClaim && aggregateBalance && (
-            <KISHUWrapper onClick={() => setShowUniBalanceModal(true)}>
-              <KISHUAmount active={!!account && !availableClaim} style={{ pointerEvents: 'auto' }}>
+            <PNGNWrapper onClick={() => setShowUniBalanceModal(true)}>
+              <PNGNAmount active={!!account && !availableClaim} style={{ pointerEvents: 'auto' }}>
                 {account && (
                   <HideSmall>
                     <TYPE.white
@@ -373,10 +373,10 @@ export default function Header() {
                     </TYPE.white>
                   </HideSmall>
                 )}
-                Billions JELLY
-              </KISHUAmount>
+                Billions PNGN
+              </PNGNAmount>
               <CardNoise />
-            </KISHUWrapper>
+            </PNGNWrapper>
           )}
           <AccountElement active={!!account} style={{ pointerEvents: 'auto' }}>
             {account && userEthBalance ? (
