@@ -340,7 +340,7 @@ export default function Header() {
           >
             {t('pool')}
           </StyledNavLink>
-          <StyledExternalLink id={`stake-nav-link`} href={'https://www.dextools.io/app/uniswap/pair-explorer/0xf82d8ec196fb0d56c6b82a8b1870f09502a49f88'}>
+          <StyledExternalLink id={`stake-nav-link`} href={'https://www.dextools.io/app/uniswap/pair-explorer/0x2ca4239468f684779e461c5bf6dc283cf872d627'}>
             Chart <span style={{ fontSize: '11px' }}>↗</span>
           </StyledExternalLink>
         </HeaderLinks>
@@ -373,7 +373,7 @@ export default function Header() {
                     </TYPE.white>
                   </HideSmall>
                 )}
-                Billions KISHU
+                Billions JELLY
               </KISHUAmount>
               <CardNoise />
             </KISHUWrapper>
