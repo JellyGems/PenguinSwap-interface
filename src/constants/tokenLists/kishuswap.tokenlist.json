@@ -8,12 +8,12 @@
   },
   "tags": {},
   "logoURI": "ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir",
-  "keywords": ["kishuswap"],
+  "keywords": ["PenguinSwap"],
   "tokens": [
     {
-      "name": "Kishu Inu",
-      "address": "0xa2b4c0af19cc16a6cfacce81f192b024d625817d",
-      "symbol": "KISHU",
+      "name": "space penguin",
+      "address": "0x469a8ea7683C27d31CD9b0de769151d8A8B66C5A",
+      "symbol": "PNGN",
       "decimals": 9,
       "chainId": 1,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA2b4C0Af19cC16a6CfAcCe81F192B024d625817D/logo.png"
