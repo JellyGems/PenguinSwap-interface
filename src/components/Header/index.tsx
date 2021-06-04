@@ -126,7 +126,7 @@ const AccountElement = styled.div<{ active: boolean }>`
   }
 `
 
-const PNGNAmount = styled(AccountElement)`
+{/* const PNGNAmount = styled(AccountElement)`
   color: white;
   padding: 4px 8px;
   height: 36px;
@@ -147,7 +147,7 @@ const PNGNWrapper = styled.span`
   :active {
     opacity: 0.9;
   }
-`
+*/}
 
 const HideSmall = styled.span`
   ${({ theme }) => theme.mediaWidth.upToSmall`
