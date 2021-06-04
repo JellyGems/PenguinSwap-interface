@@ -126,7 +126,7 @@ const AccountElement = styled.div<{ active: boolean }>`
   }
 `
 
-{/* const PNGNAmount = styled(AccountElement)`
+ const PNGNAmount = styled(AccountElement)`
   color: white;
   padding: 4px 8px;
   height: 36px;
@@ -147,7 +147,7 @@ const PNGNWrapper = styled.span`
   :active {
     opacity: 0.9;
   }
-*/}
+
 
 const HideSmall = styled.span`
   ${({ theme }) => theme.mediaWidth.upToSmall`
@@ -321,7 +321,7 @@ export default function Header() {
           </UniIcon>
         </Title>
         <HeaderLinks>
-          <StyledNavLink as="a" href="https://kishu.finance/" target="_blank">
+          <StyledNavLink as="a" href="https://RevitalCat.com/" target="_blank">
             Home
           </StyledNavLink>
           <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
@@ -352,7 +352,7 @@ export default function Header() {
               <NetworkCard title={NETWORK_LABELS[chainId]}>{NETWORK_LABELS[chainId]}</NetworkCard>
             )}
           </HideSmall>
-         {/*  {!availableClaim && aggregateBalance && (
+         {{!availableClaim && aggregateBalance && (
             <PNGNWrapper onClick={() => setShowUniBalanceModal(true)}>
               <PNGNAmount active={!!account && !availableClaim} style={{ pointerEvents: 'auto' }}>
                 {account && (
@@ -377,7 +377,7 @@ export default function Header() {
               </PNGNAmount>
               <CardNoise />
             </PNGNWrapper>
-          )} */}
+          )} 
           <AccountElement active={!!account} style={{ pointerEvents: 'auto' }}>
             {account && userEthBalance ? (
               <BalanceText style={{ flexShrink: 0 }} pl="0.75rem" pr="0.5rem" fontWeight={500}>
