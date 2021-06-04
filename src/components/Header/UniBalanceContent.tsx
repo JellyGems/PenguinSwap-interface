@@ -53,7 +53,7 @@ export default function UniBalanceContent({ setShowUniBalanceModal }: { setShowU
         <CardNoise />
         <CardSection gap="md">
           <RowBetween>
-            <TYPE.white color="white">Your KISHU Breakdown</TYPE.white>
+            <TYPE.white color="white">Your Penguin Breakdown</TYPE.white>
             <StyledClose stroke="white" onClick={() => setShowUniBalanceModal(false)} />
           </RowBetween>
         </CardSection>
@@ -80,7 +80,7 @@ export default function UniBalanceContent({ setShowUniBalanceModal }: { setShowU
         <CardSection gap="sm">
           <AutoColumn gap="md">
             <RowBetween>
-              <TYPE.white color="white">1 Billion KISHU price:</TYPE.white>
+              <TYPE.white color="white">1 Billion PNGN price:</TYPE.white>
               <TYPE.white color="white">${uniPrice?.toFixed(2) ?? '-'}</TYPE.white>
             </RowBetween>
             {/* <RowBetween>
@@ -92,7 +92,7 @@ export default function UniBalanceContent({ setShowUniBalanceModal }: { setShowU
               <TYPE.white color="white">{totalSupply?.toFixed(0, { groupSeparator: ',' })} B</TYPE.white>
             </RowBetween>
             {uni && uni.chainId === ChainId.MAINNET ? (
-              <ExternalLink href={`https://uniswap.info/token/${uni.address}`}>View KISHU Analytics</ExternalLink>
+              <ExternalLink href={`https://uniswap.info/token/${uni.address}`}>View PNGN Analytics</ExternalLink>
             ) : null}
           </AutoColumn>
         </CardSection>
