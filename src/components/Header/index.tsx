@@ -352,7 +352,7 @@ export default function Header() {
               <NetworkCard title={NETWORK_LABELS[chainId]}>{NETWORK_LABELS[chainId]}</NetworkCard>
             )}
           </HideSmall>
-          {!availableClaim && aggregateBalance && (
+         {/*  {!availableClaim && aggregateBalance && (
             <PNGNWrapper onClick={() => setShowUniBalanceModal(true)}>
               <PNGNAmount active={!!account && !availableClaim} style={{ pointerEvents: 'auto' }}>
                 {account && (
@@ -377,7 +377,7 @@ export default function Header() {
               </PNGNAmount>
               <CardNoise />
             </PNGNWrapper>
-          )}
+          )} */}
           <AccountElement active={!!account} style={{ pointerEvents: 'auto' }}>
             {account && userEthBalance ? (
               <BalanceText style={{ flexShrink: 0 }} pl="0.75rem" pr="0.5rem" fontWeight={500}>
